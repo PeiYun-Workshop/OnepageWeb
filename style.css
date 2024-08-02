@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+.banner img{
+    width: 100%;
+}
+
+.text {
+    /* border: 1pt solid plum; */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+.textbox {
+    /* border: 1pt solid palegoldenrod; */
+    width: 360px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+
+.textbox h2 {
+    font-size: 30px;
+    color: rgb(231, 220, 98);
+}
+
+
+.slogan {
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.osusume h2 {
+    color: rgb(4, 95, 4);
+    text-align: center;
+    font-size: 40px;
+}
+
+.classContent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classBox {
+    width: 340px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
+    padding: 20px;
+}
+
+.classBox img {
+    width: 100%;
+}
+
+.classBox h3 {
+    font-size: 30px;
+}
+
+.classBox .blue {
+    color: rgb(46, 194, 239);
+    font-size: 16px;
+}
+
+.classBox p {
+    color: rgb(138, 138, 138);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.classBox p s {
+    font-size: 20px;
+}
+
+.classBox p span {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+}
+
+.classBox .money {
+    text-align: center;
+}
+
+.classBox .MoneyButton a {
+    text-decoration: none;
+    background-color: rgb(210, 81, 81);
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+.classBox .MoneyButton a:hover{
+    background-color: burlywood;
+}
+
+
+@media(max-width:639px){
+    #wrap{
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+    .text{
+        display: block;
+        width: 80%;
+    }
+    .textbox{
+        width: 80%;
+        margin: auto;
+    }
+    .classContent{
+        flex-direction: column;
+        width: 80%;
+        /* border: 1px solid rgb(4, 0, 255); */
+    }
+    .classBox{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:640px) and (max-width:1199px){
+    
+    .text{
+        width: 80%;
+    }
+   
+    .classContent{
+        width: 80%;
+        /* border: 1px solid rgb(4, 0, 255); */
+    }
+    .classBox{
+        width: 80%;
+        margin-right: 20px;
+    }
+}
